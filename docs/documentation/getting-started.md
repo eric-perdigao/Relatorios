@@ -1,39 +1,18 @@
 ---
-title: Getting Started with Microprocessador
-excerpt: >-
-  This page will help you get started with Microprocessador. You'll be up and
-  running in a jiffy!
+title: Relatório
+excerpt: Relatórios semanais a respeito do  projeto
 hidden: false
 ---
-Welcome to ReadMe! :owlbert:
+Proposta: Ao longo do semestre, foram desenvolvidas várias atividades - ou laboratórios - ao fim de cada dia letivo. Com posse desse conhecimento, temos a proposta atual do projeto, que é a de usar tudo que já foi aprendido com cada atividade, em um só “arquivo”.
 
-You're on your way to building an awesome developer hub! Here's some of the things you'll want to check out.
+Semanas 1 e 2: Durante as duas primeiras semanas, houve o foco na animação dos leds da placa, pois já havíamos trabalhado com a ativação dos LEDs antes e embora a animação fosse uma dificuldade a mais, ainda era a parte mais simples do projeto. Aproveitamos também para dar início a estruturação do arquivo principal, responsável pelo chamado de todas as funções que serão usadas neste projeto.
 
-# 📝 Customize your docs
+Fazer o LED funcionar não foi trabalhoso, mas acabamos levando mais tempo do que o previsto inicialmente pois sua animação acabou sendo mais trabalhosa do que esperado, temos a previsão de finalizá-la durante a próxima semana, mas como está envolvida com várias partes do projeto pode ser que seja necessário mais tempo
 
-What you're looking at right now is what we call our **Guides**. It's a free-form place to write to your heart's content! And the best part is... you aren't alone! Your users can contribute (with your approval, don't worry!) using the **[Suggested Edits](https://docs.readme.com/main/docs/suggested-edits)** feature on every page. It's like GitHub Pull Requests, but for text!
+Fizemos também a maior parte da Uart, já que seu código já estava praticamente pronto devido a sua implementação em aula, só precisamos deixar parte de sua implementação no aguardo.
 
-Want to ease your users into it with some fancy marketing pages? You can enable a **[Landing Page](https://docs.readme.com/main/docs/landing-page)**, and write as much HTML as you want to make it look like your brand.
+Semana 3: Durante essa semana foram atualizados os códigos para a animação dos LEDs e do arquivo main, como nessa semana o grupo no geral teve dificuldades com o tempo, preferimos refinar o que já havia sido feito até então, ao invés de iniciar outra parte do projeto.
 
-# 🚦 Interactive API Docs
+Semana 4: Nesta semana continuamos a atualização do arquivo main, já que a cada nova chamada, temos uma nova função para o main, atualizamos também o arquivo de animação. Em específico, começamos a trabalhar no cronômetro e a mudança dos LEDs através de comandos pela UART, montamos a maior parte de ambos os programas, porém, estamos com dificuldade em fazê-los funcionar de forma apropriada, já que não se apaga ou liga a LED correta quando passarmos a informação pelo UART, já com o cronômetro que estamos usando como auxílio, seu tempo parece não estar sendo o que estipulamos.
 
-If you don't have an API, then no worries! ReadMe is great for any sort of documentation. But if you have an API, there are a few features to make your experience with ReadMe (and your users' experience with your developer hub!) a magical one:
-
-* **Upload your OpenAPI file:** First step is to describe your API to us! If you already have an OpenAPI file, there's lots of ways to upload it in the *API Reference* section. Our favorite is the GitHub Action, but you can use our CLI or you can upload it directly to the UI!
-* **Add API Keys:** Don't make your users hunt around for API keys. You can surface their API key [right in the docs](https://docs.readme.com/main/docs/personalized-docs), so they can play around with your API right inside ReadMe.
-* **Add Logs:** The coolest thing about ReadMe is you can add [real-time API Logs](https://docs.readme.com/main/docs/developer-dashboard) right to your docs, so you and your users can both see what's going on with their API. Trust us, it's magical!
-
-# 📈 Know your users
-
-One of the best ways to know if you're nailing the dev experience is checking out how your users are interacting with both your docs and API.
-
-* **Documentation Metrics** let you see who's using your docs, what your best and worst pages are, what people are searching for and more!
-* **API Metrics** are a bit harder to set up (I promise we do our best to make it painless!), but once you set this up you'll know *everything* that's going on with your users!
-
-# 💬 We're here to help!
-
-ReadMe has a *ton* of ways to make your docs the envy of any <Glossary>parliament</Glossary> (like that mouseover!). If you get stuck, [shoot us an email](mailto:support@readme.io) or use the Intercom widget on the bottom right of any page.
-
-We're excited you're here! :blue_heart:
-
-![This won't be fun to clean up...](https://owlbert.io/images/popper.gif)
+Semana 5: Mantemos atualização a respeito da main e mexemos na animação do LED e também com a mudança de estados do LED (liga/desliga), pois parece que a animação e o ligar e desligar estão dando problema entre eles na placa. Estamos também finalizando acertos com respeito ao cronômetro que está quase calibrado.
